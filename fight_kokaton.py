@@ -7,7 +7,7 @@ import pygame as pg
 
 WIDTH = 1100  # ゲームウィンドウの幅
 HEIGHT = 650  # ゲームウィンドウの高さ
-NUM_OF_BOMB=5
+NUM_OF_BOMB=5 #爆弾の個数
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -152,6 +152,9 @@ class Score:
     def update(self,screen):
         self.img=self.fonto.render(f"score:{self.score}",0,self.color)
         screen.blit(self.img, self.rct)
+
+class Explosion:
+    def __init__(self)
 
 def main():
     pg.display.set_caption("たたかえ！こうかとん")
