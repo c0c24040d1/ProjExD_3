@@ -7,7 +7,7 @@ import pygame as pg
 
 WIDTH = 1100  # ゲームウィンドウの幅
 HEIGHT = 650  # ゲームウィンドウの高さ
-NUM_OF_BOMB=5
+NUM_OF_BOMB=5 # 爆弾の個数
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
